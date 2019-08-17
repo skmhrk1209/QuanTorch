@@ -1,0 +1,19 @@
+{
+    "train_root": "/mnt/lustre/sensetime/hiroki_sakuma/datasets/mnist/train",
+    "train_meta": "/mnt/lustre/sensetime/hiroki_sakuma/datasets/mnist/train/meta.json",
+    "val_root": "/mnt/lustre/sensetime/hiroki_sakuma/datasets/mnist/val",
+    "val_meta": "/mnt/lustre/sensetime/hiroki_sakuma/datasets/mnist/val/meta.json",
+    "num_workers": 4,
+    "local_batch_size": 32,
+    "global_batch_denom": 128,
+    "num_training_epochs": 8,
+    "num_quantization_epochs": 1,
+    "optimizer": {
+        "lr": 1e-3,
+        "betas": [
+            0.9,
+            0.999
+        ],
+        "eps": 1e-8
+    }
+}
